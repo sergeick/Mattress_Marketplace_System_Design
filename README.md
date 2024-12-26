@@ -11,20 +11,20 @@
 
 ## Архитектурная документация и диаграммы
 
-### Документация: [1. Business Flow Architecture](/docs/1_BUISNESS_FLOW_readme.md)
-### Диаграмма: [![Business Flow Architecture](/diagrams/1_BUISNESS_FLOW_MAPPING.png)](/diagrams/1_BUISNESS_FLOW_MAPPING.png)
+### Документация --> [1. Business Flow Architecture](/docs/1_BUISNESS_FLOW_readme.md)
+[![Business Flow Architecture](/diagrams/1_BUISNESS_FLOW_MAPPING.png)](/diagrams/1_BUISNESS_FLOW_MAPPING.png)
 Определяет основные бизнес-процессы, интеграции с внешними системами и потоки данных между сервисами.
 
-### Документация [2. API Architecture](/docs/2_API_readme.md)
-### Диаграмма: [![API Architecture](/diagrams/2_API_MAPPING.png)](/diagrams/2_API_MAPPING.png)
+### Документация --> [2. API Architecture](/docs/2_API_readme.md)
+[![API Architecture](/diagrams/2_API_MAPPING.png)](/diagrams/2_API_MAPPING.png)
 Описывает слои API, маршрутизацию запросов и взаимодействие между сервисами. Включает API Gateway, Service Mesh и основные микросервисы.
 
-### Документация [3. Order Flow Architecture](/docs/3_ORDER_readme.md)
-### Диаграмма: [![Order Flow Architecture](/diagrams/3_ORDER_MAPPING.png)](/diagrams/3_ORDER_MAPPING.png)
+### Документация --> [3. Order Flow Architecture](/docs/3_ORDER_readme.md)
+[![Order Flow Architecture](/diagrams/3_ORDER_MAPPING.png)](/diagrams/3_ORDER_MAPPING.png)
 Детализирует процесс обработки заказов, включая платежи, управление инвентарем и доставку. Реализует паттерн SAGA для распределенных транзакций.
 
-### Документация [4. Deployment Architecture](/docs/4_DEPLOY_readme.md)
-### Диаграмма: [![Deployment Architecture](/diagrams/4_DEPLOY_MAPPING.png)](/diagrams/4_DEPLOY_MAPPING.pngg)
+### Документация --> [4. Deployment Architecture](/docs/4_DEPLOY_readme.md)
+[![Deployment Architecture](/diagrams/4_DEPLOY_MAPPING.png)](/diagrams/4_DEPLOY_MAPPING.pngg)
 Описывает инфраструктуру AWS, конфигурацию Kubernetes и стратегии развертывания. Включает мониторинг и масштабирование.
 
 
