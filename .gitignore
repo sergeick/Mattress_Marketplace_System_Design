@@ -11,3 +11,4 @@ docs/6_USER_MAP_documentation.md
 .DS_Store
 .env
 *.log
+docs/gitignore/
