@@ -1,0 +1,13 @@
+# Ignore all .mmd files
+*.mmd
+
+# Ignore specific files
+docs/5_CATALOG MAP.mmd
+docs/5_CATALOG_readme.md
+docs/6_USER_MAP.mmd
+docs/6_USER_MAP_documentation.md
+
+# Common files to ignore
+.DS_Store
+.env
+*.log
