@@ -10,6 +10,9 @@
 - Время ответа API: < 200ms
 
 ## Архитектурная документация и диаграммы
+### Базовая документация и диаграмма --> [1. Base System Design](/docs/0_BASE_MAPPING.md)
+[![Base System Design](/diagrams/0_BASE_MAPPING.png)](/diagrams/0_BASE_MAPPING.png)
+Базовая документация и диаграмма определяет основные процессы между сервисами и инструментами.
 
 ### Документация --> [1. Business Flow Architecture](/docs/1_BUISNESS_FLOW_readme.md)
 [![Business Flow Architecture](/diagrams/1_BUISNESS_FLOW_MAPPING.png)](/diagrams/1_BUISNESS_FLOW_MAPPING.png)
