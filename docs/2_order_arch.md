@@ -1,6 +1,6 @@
 # Order Service Documentation
 ## Distributed Transaction Management with SAGA Pattern and Temporal Workflow
-[![Order Flow Architecture SAGA](/diagrams/32_order_mapping_high_arch.svg)](/diagrams/2_order_mapping_high_arch.svg)
+[![Order Flow Architecture SAGA](/diagrams/2_order_mapping_high_arch.svg)](/diagrams/2_order_mapping_high_arch.svg)
 
 ## 1. Общее Описание
 

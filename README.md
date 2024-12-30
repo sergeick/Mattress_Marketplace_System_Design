@@ -14,11 +14,11 @@
 [![Base System Design](/diagrams/1_base_mapping_high_arch.svg)](/diagrams/1_base_mapping_high_arch.svg)
 Базовая документация и диаграмма определяет основные процессы между сервисами и инструментами.
 
-### [2. Order Flow Architecture](/docs/2_order_arch.md) <-- Документация High Level Order with SAGA Pattern and Temporal Workflow
+### [2. Order Architecture](/docs/2_order_arch.md) <-- Документация High Level Order with SAGA Pattern and Temporal Workflow
 [![Order Flow Architecture](/diagrams/2_order_mapping_high_arch.svg)](/diagrams/2_order_mapping_high_arch.svg)
 Детализирует процесс обработки заказов, включая платежи, управление инвентарем и доставку. Реализует паттерн SAGA для распределенных транзакций.
 
-### [3. Business Flow Architecture](/docs/3_bussines_arch.md) <-- Документация High Level Business Flow Architecture 
+### [3. Business Architecture](/docs/3_bussines_arch.md) <-- Документация High Level Business Flow Architecture 
 Определяет основные бизнес-процессы, интеграции с внешними системами и потоки данных между сервисами.
 
 ### [4. API Architecture](/docs/4_api_arch.md) <-- Документация High Level API Architecture
