@@ -11,11 +11,11 @@
 
 ## Архитектурная документация и диаграммы
 ### Базовая документация и диаграмма --> [1. Base System Design](/docs/1_base_arch.md)
-[![Base System Design](/diagrams/0_BASE_MAPPING.png)](/diagrams/1_base_mapping_high_arch.png)
+[![Base System Design](/diagrams/1_base_mapping_high_arch.png)](/diagrams/1_base_mapping_high_arch.png)
 Базовая документация и диаграмма определяет основные процессы между сервисами и инструментами.
 
 ### Документация --> [2. Order Flow Architecture](/docs/2_order_arch.mdd)
-[![Order Flow Architecture](/diagrams/3_ORDER_MAPPING.png)](/diagrams/2_order_mapping_high_arch.svg)
+[![Order Flow Architecture](/diagrams/2_order_mapping_high_arch.svg)](/diagrams/2_order_mapping_high_arch.svg)
 Детализирует процесс обработки заказов, включая платежи, управление инвентарем и доставку. Реализует паттерн SAGA для распределенных транзакций.
 
 ### Документация --> [3. Business Flow Architecture](/docs/3_bussines_arch.md)
