@@ -10,7 +10,7 @@
 - Время ответа API: < 200ms
 
 ## Архитектурная документация и диаграммы
-### [1. Base System Design](/docs/1_base_arch.md) <-- ДокументацияHigh Level Base System Design
+### [1. Base System Design](/docs/1_base_arch.md) <-- Документация High Level Base System Design
 [![Base System Design](/diagrams/1_base_mapping_high_arch.svg)](/diagrams/1_base_mapping_high_arch.svg)
 Базовая документация и диаграмма определяет основные процессы между сервисами и инструментами.
 
