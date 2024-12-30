@@ -10,24 +10,21 @@
 - Время ответа API: < 200ms
 
 ## Архитектурная документация и диаграммы
-### Базовая документация и диаграмма --> [1. Base System Design](/docs/0_BASE_MAPPING.md)
-[![Base System Design](/diagrams/0_BASE_MAPPING.png)](/diagrams/0_BASE_MAPPING.png)
+### Базовая документация и диаграмма --> [1. Base System Design](/docs/1_base_arch.md)
+[![Base System Design](/diagrams/0_BASE_MAPPING.png)](/diagrams/1_base_mapping_high_arch.png)
 Базовая документация и диаграмма определяет основные процессы между сервисами и инструментами.
 
-### Документация --> [1. Business Flow Architecture](/docs/1_BUISNESS_FLOW_readme.md)
-[![Business Flow Architecture](/diagrams/1_BUISNESS_FLOW_MAPPING.png)](/diagrams/1_BUISNESS_FLOW_MAPPING.png)
-Определяет основные бизнес-процессы, интеграции с внешними системами и потоки данных между сервисами.
-
-### Документация --> [2. API Architecture](/docs/2_API_readme.md)
-[![API Architecture](/diagrams/2_API_MAPPING.png)](/diagrams/2_API_MAPPING.png)
-Описывает слои API, маршрутизацию запросов и взаимодействие между сервисами. Включает API Gateway, Service Mesh и основные микросервисы.
-
-### Документация --> [3. Order Flow Architecture](/docs/3_ORDER_readme.md)
-[![Order Flow Architecture](/diagrams/3_ORDER_MAPPING.png)](/diagrams/3_ORDER_MAPPING.png)
+### Документация --> [2. Order Flow Architecture](/docs/2_order_arch.mdd)
+[![Order Flow Architecture](/diagrams/3_ORDER_MAPPING.png)](/diagrams/2_order_mapping_high_arch.svg)
 Детализирует процесс обработки заказов, включая платежи, управление инвентарем и доставку. Реализует паттерн SAGA для распределенных транзакций.
 
-### Документация --> [4. Deployment Architecture](/docs/4_DEPLOY_readme.md)
-[![Deployment Architecture](/diagrams/4_DEPLOY_MAPPING.png)](/diagrams/4_DEPLOY_MAPPING.pngg)
+### Документация --> [3. Business Flow Architecture](/docs/3_bussines_arch.md)
+Определяет основные бизнес-процессы, интеграции с внешними системами и потоки данных между сервисами.
+
+### Документация --> [4. API Architecture](/docs/4_api_arch.md)
+Описывает слои API, маршрутизацию запросов и взаимодействие между сервисами. Включает API Gateway, Service Mesh и основные микросервисы.
+
+### Документация --> [5. Deployment Architecture](/docs/5_deploy_arch.md)
 Описывает инфраструктуру AWS, конфигурацию Kubernetes и стратегии развертывания. Включает мониторинг и масштабирование.
 
 
