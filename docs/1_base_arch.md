@@ -41,7 +41,8 @@
 - **Peak Load:** 10,000 RPS (Requests Per Second)
 
 ## 2. Высокоуровневая архитектура
-[![Base System Design](/diagrams/0_BASE_MAPPING.png)](/diagrams/0_BASE_MAPPING.png)
+[![Base System Design](/diagrams/1_base_mapping_high_arch.svg)](/diagrams/1_base_mapping_high_arch.svg)
+
 
 
 
